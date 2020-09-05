@@ -1,0 +1,13 @@
+name: MCFSkywars
+main: xyz.mcfridays.games.skywars.MCFSkywars
+description: Yeet
+depend: [MCFCore]
+version: 1.0
+commands:
+  skywarsadmin:
+    aliases: [sa, swa]
+    
+permissions:
+  mcf.skywars.admin:
+    description: Access to admin commands for hungergames
+    default: op

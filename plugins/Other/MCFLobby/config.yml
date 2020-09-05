@@ -1,0 +1,26 @@
+player_scoreboard:
+  x: 38 
+  y: 28
+  z: 58
+
+team_scoreboard:
+  x: 34 
+  y: 28
+  z: 58
+  
+spawn_location:
+  x: 38 
+  y: 28
+  z: 17
+  yaw: 0
+  patch: 0
+
+dev_mode: false
+
+kotl:
+  enabled: false
+  x: 0
+  z: 0
+  top_y: 40
+  radius: 5
+  

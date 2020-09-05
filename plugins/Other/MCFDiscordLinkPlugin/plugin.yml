@@ -1,0 +1,5 @@
+name: MCFDiscordLinker
+main: xyz.mcfridays.mcf.mcfdiscordlinker.MCFDiscordLinker
+description: Yeet
+depend: []
+version: 1.0

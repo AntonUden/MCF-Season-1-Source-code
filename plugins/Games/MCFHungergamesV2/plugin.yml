@@ -1,0 +1,24 @@
+name: MCFHungergamesV2
+main: xyz.mcfridays.mcf.games.hungergamesv2.MCFHungergames
+description: Yeet
+depend: [MCFCore, HolographicDisplays, BadlionClientTimerAPI]
+version: 1.0
+commands:
+  hgadmin:
+    aliases: [hga]
+  
+  hgdebug:
+    aliases: [hgd]
+    
+permissions:
+  mcf.hungergames.admin:
+    description: Access to admin commands for hungergames
+    default: op
+  
+  mcf.hungergames.debug:
+    description: Access to debug commands for hungergames
+    default: op
+
+  mcf.hg.forcemap:
+    description: Allow bypassing map selection
+    default: op

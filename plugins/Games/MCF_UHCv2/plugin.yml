@@ -1,0 +1,15 @@
+name: MCF_UHCv2
+main: xyz.mcfridays.mcf.games.uhc.MCFUHC
+description: Yeet
+depend: [MCFCore]
+version: 1.0
+commands:
+  uhcadmin:
+    aliases: [uhca, ua]
+  
+  top:
+    
+permissions:
+  mcf.uhc.admin:
+    description: Access to admin commands for uhc
+    default: op

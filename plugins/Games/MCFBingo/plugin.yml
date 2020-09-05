@@ -1,0 +1,21 @@
+name: MCFBingo
+main: xyz.mcfridays.mcf.games.bingo.MCFBingo
+description: Yeet
+depend: [MCFCore]
+version: 1.0
+
+commands:
+  top:
+    useage: /top
+  bingo:
+    description: Show progress
+    useage: /bingo
+    aliases: [b]
+  bingoadmin:
+    description: Admin command for bingo
+    aliases: [ba]
+
+permissions:
+  mcf.bingo.admin:
+    description: Access to admin commands for bingo
+    default: op

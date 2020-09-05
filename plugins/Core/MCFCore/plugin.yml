@@ -1,0 +1,113 @@
+name: MCFCore
+main: xyz.mcfridays.mcf.mcfcore.MCFCore
+description: Yeet
+depend: [HolographicDisplays, TitleAPI]
+version: 1.0
+commands:
+  team:
+    aliases: [teams, party]
+    description: Command to manage teams
+
+  mcf:
+    aliases: [mcfriday, mcfridays]
+    description: Admin command for mcf
+
+  sudo:
+    description: Run command or chat as another player
+
+  database:
+    aliases: [dbc, db]
+    description: Command to manage database
+
+  recipes:
+    aliases: [recipe, recipes, crafting, craftings]
+    description: Show custom crafting recipes
+
+  fly:
+    description: Toggle flight
+
+  back:
+    description: Return to the last active game server
+    aliases: [reconnect, return]
+  
+  invsee:
+    description: Open another players inventory
+
+  respawnplayer:
+    description: respawn a player
+  
+  hwi:
+    aliases: [hardware, hardwareinfo]
+    description: hardware info
+  
+  playerlocation:
+    aliases: [ploc]
+    description: get location of all players
+    
+  ci:
+    description: Open a menu with all custom items 
+
+permissions:
+  mcf.team.admin:
+    description: Admin team commands
+    default: op
+  
+  mcf.ci:
+    description: Open a menu with all custom items 
+    default: op
+  
+  mcf.playerlocation:
+    description: playerlocation command
+    default: op
+
+  mcf.mcf.testloot:
+    description: Admin command to test loot tables
+    default: op
+
+  mcf.mcf.testaddscore:
+    description: Admin command to test score system
+    default: op
+
+  mcf.mcf:
+    description: Admin command for MCF
+    default: op
+  
+  mcf.mcf.testerrorlog:
+    description: Test error log
+    default: op
+  
+  mcf.mcf.plist:
+    description: Show ingame players
+    default: op
+
+  mcf.sudo.use:
+    description: Access to sudo command
+    default: false
+
+  mcf.sudo.exempt:
+    description: Exempt from sudo command
+    default: false
+
+  mcf.database:
+    description: Command to manage database
+    default: op
+
+  mcf.showerrors:
+    description: Show errors in chat
+    default: op
+
+  mcf.fly:
+    description: Toggle flight
+    default: op
+    
+  mcf.invsee:
+    description: Open another players inventory
+    default: op
+
+  mcf.errorlog:
+    description: Receive error messages
+    deafult: op
+
+  mcf.respawnplayer:
+    description: Respawn another player
+    default: op

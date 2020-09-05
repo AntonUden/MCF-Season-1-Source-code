@@ -1,0 +1,4 @@
+name: MCFBungeecordPlugin
+main: xyz.mcfridays.mcf.bungeecord.MCFBungeecord
+version: 1.0
+author: Zeeraa

@@ -1,0 +1,16 @@
+name: MCFLobby
+main: xyz.mcfridays.mcf.lobby.MCFLobby
+description: Yeet
+depend: [MCFCore, HolographicDisplays, Citizens]
+version: 1.0
+commands:
+  yeet:
+    description: y tho
+  
+  fireworks:
+    description: PARTY!!!!!
+
+permissions:
+  mcf.fireworks:
+    description: PARTY!!!!!
+    default: op

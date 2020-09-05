@@ -1,0 +1,11 @@
+name: MCFDropper
+main: xyz.mcfridays.mcf.games.dropper.MCFDropper
+description: YEET
+depend: [MCFCore, HolographicDisplays]
+version: 1.0
+commands:
+  dropper:
+permissions:
+  mcf.dropper.admin:
+    description: Access to admin commands for dropper
+    default: op
